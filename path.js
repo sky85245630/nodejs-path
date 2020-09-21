@@ -5,3 +5,6 @@ console.log(path.dirname('/xx/yy/zz.js'))
 
 //路徑合併
 console.log(path.join(__dirname,'/xx'))
+
+//抓檔名
+console.log(path.basename('/xx/yy/zz.js'))
