@@ -8,3 +8,6 @@ console.log(path.join(__dirname,'/xx'))
 
 //抓檔名
 console.log(path.basename('/xx/yy/zz.js'))
+
+//抓副檔名
+console.log(path.extname('/xx/yy/zz.js'))
